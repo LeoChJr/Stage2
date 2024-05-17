@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro - Torneo de Fútbol</title>
+</head>
+<body>
+    <h1>Formulario de Registro</h1>
+
+    <form action="#" method="POST">
+        <div>
+            <label for="nombre">Nombre completo:</label>
+            <input type="text" required> <!-- falta el id y el name serian como las variables que despues se llaman en css o seo creo-->
+        
+        </div>
+
+        <div>
+            <label for="edad">Edad:</label>
+            <input type="number" required>
+        </div>
+
+        <div>
+            <label for="email">Correo electronico:</label>
+            <input type="email" required>
+        </div>
+
+        <div>
+            <label for="categoria">Categoria:</label>
+            <select name="categoria" id="categoria" required>
+                <option value="">Selecciona una categoria</option>
+                <option value="Sub-12">Sub-12</option>
+                <option value="Sub-15">Sub-15</option>
+                <option value="Sub-18">Sub-18</option>
+            </select>
+            
+        </div>
+
+        <div>
+            <label>Posicion en el campo:</label><br>
+            <input type="radio" id="delantero" name="posicion" value="Delantero">
+            <label for="delantero">Delantero</label><br>
+            <input type="radio" id="mediocampista" name="posicion" value="Mediocampista">
+            <label for="mediocampista">Mediocampista</label><br>
+            <input type="radio" id="defensa" name="posicion" value="Defensa">
+            <label for="defensa">Defensa</label><br>
+            <input type="radio" id="portero" name="posicion" value="Portero">
+            <label for="portero">Portero</label><br>
+        </div>
+
+        <div>
+            <input type="checkbox" required>
+            <label for="terminos">aceptar los términos y condiciones del torneo</label>
+        </div>
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
