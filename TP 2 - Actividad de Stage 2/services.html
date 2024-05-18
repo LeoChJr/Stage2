@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SpeedHouse - Servicios</title>
+  </head>
+  <!-- Un poco de CSS para que se vea un poco mejor porque se veia muy junto y se veia horrible-->
+  <style> 
+    td {
+        border: 5px solid #ddd;
+        text-align: center;
+        position: initial;
+    }
+   
+    li{
+      text-align: left;
+    }
+    p{
+      text-align: left;
+    }
+</style>
+
+  <body>
+    <nav>
+      <ul>
+          <li><a href="index.html">Inicio</a></li> <!--Pestaña de Inicio de la Pagina-->
+          <li><a href="about.html">Sobre Nosotros</a></li> <!--Pestaña de Sobre Nosotros de la Pagina-->
+          <li><a href="contact.html">Contacto</a></li> <!--Pestaña de Contacto de la Pagian-->
+      </ul>
+  </nav>
+
+    <table> <!-- Tabla de los productos que ofrece SpeedHouse-->
+      <h2>Electrodomesticos</h2> <!--Tipos de Productos-->
+      <tr >
+        <td>Foto</td> <!--Imagen del Producto-->
+        <td>Nombre del Producto</td> <!--Nombre del Producto-->
+        <td>Precio</td> <!--Cuanto sale el Producto-->
+        <td>Cantidad de Stock Disponible</td> <!--Muestra la cantidad de Productos Disponibles hay-->
+        <td>Descripcion</td> <!--Breve descripcion del Producto-->
+        <!--Todo eso es la primera Fila de la tabla-->
+      </tr>
+
+      <tr>
+        <td> <img src="imagenes/Estufa_electrica.webp" width="150" height="150"></td> <!---Imagen sacada de Mercado Libre y tambien tiene para modificar el ancho y la altura de la imagen-->
+        <td>Estufa Electrica</td> <!--Tipos de Productos-->
+        <td>$23.000</td> <!--Precio-->
+        <td>12</td> <!--Cantidad de Stock Disponible-->
+        <td><!-- Descripcion del Productos dentro de una lista desordenada-->
+            <ul>
+                <li>Potencia de 1200w (600w por vela).</li>
+                <li>Base redonda de una sola pieza.</li>
+                <li>Llave doble independiente para cada vela</li>
+                <li>Materiales ignífugos y de alta temperatura.</li>
+                <li>Largo del cable: 135cm</li>
+            </ul>
+        </td>
+        <!--Todo eso es la segunda Fila de la tabla-->
+      </tr>
+      <!--Y asi lo hice sucesivamente toda la Informacion fue sacada de Mercado Libre-->
+      <tr>
+        <td>
+            <img src="imagenes/Horno.webp" width="150" height="150">
+        </td>
+        <td>Horno</td>
+        <td>$92.144</td>
+        <td>2</td>
+        <td>
+            <ul>
+                <li>Horno electrico Liliana 32 LTS</li>
+                <li>Modelo: AAO320</li>
+                <li>Cuenta con una capacidad de 32 litros y una potencia de 1750 watts</li>
+                <li>Viene con una bandeja antiadherente y una rejilla metálica</li>
+                <li>Cuenta con 4 resistencias de acero inoxidable</li>
+            </ul>
+        </td>
+      </tr>
+      <tr>
+        <td>
+            <img src="imagenes/refrigerador.webp" width="150" height="300">
+        </td>
+        <td>Refrigerador</td> 
+        <td>$997.999</td>
+        <td>3</td>
+        <td>
+            <ul>
+                <li>Total No Frost, previene la creación de escarcha, lo que hace que el proceso de descongelación sea cosa del pasado.</li>
+                <li>Esrealmente fácil ajustar la altura de los estantes según tus necesidades. Esto es útil cuando necesitas almacenar botellas altas o artículos grandes.</li>
+                <li>El Filtro Desodorizante está hecho de Carbón Activado, que elimina los malos olores, manteniendo el aire fresco y preservando el sabor de tus alimentos por más tiempo</li>
+            </ul>
+        </td>
+      </tr>
+      </tr>
+    </table>
+    <table>
+      <h2>Tegnologicos</h2> <!--Tipos de Productos-->
+    <tr>
+      <td>Foto</td>
+      <td>Nombre del Producto</td>
+      <td>Precio</td>
+      <td>Cantidad de Stock Disponible</td>
+      <td>Descripcion</td>
+      
+    </tr>
+
+    <tr>
+      <td> <img src="imagenes/celular.webp" width="100" height="150"></td>
+      <td>Celular</td>
+      <td>$399.999</td>
+      <td>12</td>
+      <td>
+          <ul>
+              <li>Con su potente procesador y memoria RAM de 6 GB tu equipo alcanzará un alto rendimiento con gran velocidad de transmisión de contenidos</li>
+              <li>Desbloqueo veloz con tu huella dactilar</li>
+              <li>Gran capacidad de almacenamiento(128 GB)</li>
+              <li>Batería de 5000 mAh tendrás energía por mucho más tiempo para jugar, ver series o trabajar sin necesidad de realizar recargas.</li>
+          </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>
+          <img src="imagenes/notebook.webp" width="150" height="100">
+      </td>
+      <td>Notebook</td>
+      <td>$1.415.999</td>
+      <td>2</td>
+      <td>
+          <ul>
+              <li>Procesador- <b>(Intel® Core™ i5 de 13.ª generación)</b></li>
+              <li>Pantalla - Diagonal de la pantalla : 39,6 cm (15,6")
+                - Resolución de pantalla : 1920 x 1080 píxeles </li>
+              <li>Memoria interna (8GB) - Memoria interna máxima (64GB)</li>
+              <li>Capacidad total de almacenamiento (256GB)</li>
+          </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>
+          <img src="imagenes/televisor.webp" width="150" height="100">
+      </td>
+      <td>Samsung 55 Qled 4k</td>
+      <td>$883.499</td>
+      <td>3</td>
+      <td>
+          <ul>
+              <li>Mayor rango de contraste en escala cinematográfica</li>
+              <li>Diseño delgado que se integra en la pared sin problemas.</li>
+              <li>Acceso a cientos de juegos de Xbox en la Smart TV con Xbox Game Pass</li>
+          </ul>
+      </td>
+    </tr>
+    </tr>
+  </table>
+  <table>
+    <h2>Herrameintas</h2> <!--Tipos de Productos-->
+  <tr>
+    <td>Foto</td>
+    <td>Nombre del Producto</td>
+    <td>Precio</td>
+    <td>Cantidad de Stock Disponible</td>
+    <td>Descripcion</td>
+    
+  </tr>
+
+  <tr>
+    <td> <img src="imagenes/hidrolavadora.webp" width="150" height="150"></td>
+    <td>Hidrolavadora Philco</td>
+    <td>$63.941</td>
+    <td>10</td>
+    <td>
+        <ul>
+            <li>La Hidrolavadora Philco es una herramienta de limpieza de alto rendimiento diseñada para hacer frente a una variedad de tareas con eficacia y facilidad.</li>
+            <li>Con una potencia de 1100W</li>
+            <li>El caudal de 5.5 L/min asegura una distribución uniforme del agua, maximizando la eficiencia de limpieza en cada aplicación.</li>
+        </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>
+        <img src="imagenes/soldadora.webp" width="150" height="150">
+    </td>
+    <td>Soldadora</td>
+    <td>$169.999</td>
+    <td>2</td>
+    <td>
+        <ul>
+            <li>Voltaje: 220V</li>
+            <li>Ciclo de trabajo: 60% 200A / 100% 155A</li>
+            <li>Tecnología PCB que protege al equipo ante variaciones de tensión</li>
+            <li>Peso: 6.2Kg</li>
+
+        </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>
+        <img src="imagenes/set_juego.webp" width="150" height="150">
+    </td>
+    <td>Set Juego De Llaves Tubos Y Puntas Combinadas</td>
+    <td>$66.999</td>
+    <td>3</td>
+    <td>
+        <ul>
+            <li>Llave tubular corta 1/2 pulgada (17 piezas)</li>
+            <li>Llave de tubo corta de 1/4 de pulgada (13 Piezas)</li>
+            <li>Llave de tubo larga 1 / 2 pulgadas (5 piezas)</li>
+            <p>Y mucho mas</p>
+        </ul>
+    </td>
+  </tr>
+  </tr>
+</table>
+<footer>
+  <p>Copyright © 2024 SpeedHouse</p>
+</footer>
+  </body>
+</html>
